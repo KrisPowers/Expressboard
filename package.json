@@ -1,0 +1,27 @@
+{
+  "name": "expressboard",
+  "version": "0.0.1",
+  "description": "Fast, minimal, user-friendly dashboard for express.js servers.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KrisPowers/Expressboard.git"
+  },
+  "keywords": [
+    "dashboard",
+    "express",
+    "express.js",
+    "node.js",
+    "javascript",
+    "server"
+  ],
+  "author": "Kris Powers",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KrisPowers/Expressboard/issues"
+  },
+  "homepage": "https://github.com/KrisPowers/Expressboard#readme"
+}
