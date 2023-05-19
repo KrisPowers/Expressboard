@@ -1,27 +1,11 @@
-// Dependinces
-const express = require('express')
-const app = express()
+/*!
 
-module.exports() = {
+ * expressboard
+ * Copyright(c) 2023 Kris Powers
+ * MIT Licensed
+  
+*/
 
-    listen: async function(port){
+'use strict';
 
-        app.listen(port)
-
-    },
-
-    get: async function(location, responseType, response){
-
-        app.get(`/${location}`, function (req, res) {
-
-            if(responseType == "json"){
-                res.json( { response } )
-            } else if(responseType == "text"){
-                res.send(response)
-            }
-            
-        })
-
-    }
-
-}
+module.exports = require('./public/index');
